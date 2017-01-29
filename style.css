@@ -1,0 +1,48 @@
+html, body{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background: rgb(21,34,47);
+    transition: background 1s;
+    
+}
+
+nav{
+    display: block;
+    padding: 1em;
+    border: 3px solid #000;
+    margin: 0;
+}
+nav a{
+    display: inline-block;
+    padding: .5em 1em;
+    margin-left: 1em;
+    font-size: 1.5em;
+    border: 3px solid #fff;
+    color: #fff;
+    background: #333;
+}
+
+nav a:hover{
+    border-color: #333;
+    background: #fff;
+    color: #333;
+}
+
+.alpha{
+    background-image:url('https://raw.githubusercontent.com/atridess/images-food/master/P_20151219_125420.jpg');
+    background-size: cover;
+}
+
+.bravo{
+    background-image:url('https://raw.githubusercontent.com/atridess/images-food/master/P_20151219_131329.jpg');
+    background-size: cover;
+}
+
+.charlie{
+    background-image:url('https://raw.githubusercontent.com/atridess/images-food/master/P_20151219_132605.jpg');
+    background-size: cover;
+}

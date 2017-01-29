@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Change</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        window.addEventListener("load",function(){
+            var nodes = document.querySelectorAll("[data-body-class]");
+            for(var i=0; i<nodes.length; i++){
+                nodes[i].addEventListener("click",function(){
+                    document.querySelector("body").className = this.getAttribute("data-body-class");
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <a data-body-class="alpha" href="#">Alpha</a>
+        <a data-body-class="bravo" href="#">Bravo</a>
+        <a data-body-class="charlie" href="#">Charlie</a>
+    </nav>
+</body>
+</html>
